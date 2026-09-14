@@ -18,23 +18,13 @@
 </script>
 
 <div class="flex items-center gap-2 {className}">
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 128 128"
-		width={size}
-		height={size}
+	<span
+		class="inline-block shrink-0"
+		style="width:{size}px;height:{size}px;background-color:var(--action-focal);-webkit-mask-image:url('/assets/brand/mark.svg');mask-image:url('/assets/brand/mark.svg');-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;"
 		role={decorative || showText ? undefined : 'img'}
 		aria-label={decorative || showText ? undefined : 'Blip Social'}
 		aria-hidden={decorative || showText ? 'true' : undefined}
-		class="h-auto max-w-full shrink-0"
-	>
-		<g fill="var(--action-focal)">
-			<path d="M24 4h36v28L32 60H4V24A20 20 0 0 1 24 4Z" />
-			<path d="M68 4h36a20 20 0 0 1 20 20v36H96L68 32Z" />
-			<path d="M4 68h28l28 28v28H24a20 20 0 0 1-20-20Z" />
-			<path d="m68 96 28-28h28v36a20 20 0 0 1-20 20H68Z" />
-		</g>
-	</svg>
+	></span>
 	{#if showText}
 		<span
 			class="font-brand leading-none font-semibold tracking-[-0.02em] whitespace-nowrap text-sidebar-foreground"
