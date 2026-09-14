@@ -24,7 +24,7 @@
 		width={size}
 		height={size}
 		role={decorative || showText ? undefined : 'img'}
-		aria-label={decorative || showText ? undefined : 'OpenPost'}
+		aria-label={decorative || showText ? undefined : 'Blip Social'}
 		aria-hidden={decorative || showText ? 'true' : undefined}
 		class="h-auto max-w-full shrink-0"
 	>
@@ -38,7 +38,7 @@
 	{#if showText}
 		<span
 			class="font-brand leading-none font-semibold tracking-[-0.02em] whitespace-nowrap text-sidebar-foreground"
-			>OpenPost</span
+			>Blip Social</span
 		>
 	{/if}
 </div>

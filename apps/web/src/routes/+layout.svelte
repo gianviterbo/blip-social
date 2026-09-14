@@ -504,7 +504,7 @@
 <svelte:window onbeforeunload={warnBeforeUnload} />
 
 <svelte:head>
-	<title>OpenPost</title>
+	<title>Blip Social</title>
 </svelte:head>
 
 <QueryClientProvider client={queryClient}>
